@@ -486,6 +486,10 @@ user_agent_parsers:
   # PyAMF
   - regex: '(PyAMF)/(\d+)\.(\d+)\.(\d+)'
 
+  # Yandex App
+  - regex: '(YaApp_[^\/]+)\/(\d+)\.(\d+)'
+    family_replacement: 'Yandex App'
+
   # Yandex Browser
   - regex: '(YaBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Yandex Browser'
